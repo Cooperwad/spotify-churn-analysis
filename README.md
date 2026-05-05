@@ -54,6 +54,8 @@ Planned evaluation includes:
 - Churn-rate comparisons across clusters
 - Classification metrics such as F1 score, ROC-AUC, and precision-recall if a supervised extension is added
 
-## Current State
+## Setup
+- Install requirements from `requirements.txt` with `pip install -r requirements.txt`. 
+- Add the data from Kaggle to `data/raw/`.
+- Run `python src/clean_data.py` from the project root to generate processed data. 
 
-This repo currently contains only the project scaffold and documentation basics. No implementation code, notebooks, or models have been added yet.
